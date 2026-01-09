@@ -16,20 +16,20 @@
    pip install requests pandas matplotlib
 3. Настройка API-ключа  
 
-Скрипт использует переменную окружения `VirusTotal` для безопасного хранения ключа API.
-
-*   **Для Windows:**
-    ```shell
-    set VirusTotal=ВАШ_КЛЮЧ_API
-    ```
-
-*   **Для Linux / macOS:**
-    ```shell
-    export VirusTotal=ВАШ_КЛЮЧ_API
-    ```
+   Скрипт использует переменную окружения `VirusTotal` для безопасного хранения ключа API.
+   
+   *   **Для Windows:**
+       ```shell
+       set VirusTotal=ВАШ_КЛЮЧ_API
+       ```
+   
+   *   **Для Linux / macOS:**
+       ```shell
+       export VirusTotal=ВАШ_КЛЮЧ_API
+       ```
 
 4. Запуск скрипта
 
-```shell
-python3 virustotal_checker.py
-```
+   ```shell
+   python3 virustotal_checker.py
+   ```
