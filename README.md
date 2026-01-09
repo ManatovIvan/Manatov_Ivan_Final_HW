@@ -31,5 +31,5 @@
 4. Запуск скрипта
 
    ```shell
-   python3 virustotal_checker.py
+   python3 main.py
    ```
